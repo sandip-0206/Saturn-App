@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400;500&family=Teko:wght@300;400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+:root{
+    --primary: hsla(221, 100%, 53%, 0.8);
+    --secondary: hsla(216, 93%, 58%, 0.1);
+    --tersary:hsla(240, 83%, 62%, 0.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* brand section */
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #214e8e;
+    font-family: 'Teko', sans-serif;
+    background: -webkit-linear-gradient(left, #0909a0 , #3b82c4);
+    background: -o-linear-gradient(right, #0909a0 , #3b82c4);
+    background: -moz-linear-gradient(right, #0909a0 , #3b82c4);
+    background: linear-gradient(to right, #0909a0 , #3b82c4); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3.2rem;
+    margin-top: -2.7rem;
+}
+p{
+    font-size: 16px;
+}
+.blue{
+    color: #4400ff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3.2rem;
+    margin-top: -1rem;
+    letter-spacing: 1px;
+}
+
+.iso{
+     width: 50px;
+     height:50px;
+     font-size: 13px;
+     margin-left: 4rem;
+}
+.cup-h{
+    margin-left: 7rem;
+    margin-top: -3rem;
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+}
+.cup-p{
+    margin-left: 8rem;
+    font-size: 14px;
+    margin-top: -2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.cer-h{
+    margin-left: 7.8rem;
+    margin-top: -3rem;
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+}
+.cer-p{
+    margin-left: 9.5rem;
+    font-size: 14px;
+    margin-top: -2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.nav-c{
+    margin: 0 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+#navbarNav ul li a.active{
+    color: #4400ff !important;
+}
+#navbarNav ul li a{
+    color: black !important;
+}
+#navbarNav ul li a:hover{
+    color: white !important;
+    background-image: linear-gradient(to right, #0a3a7e ,#3b6992, #4788b9);
+}
+
+.n-items :hover{
+    background: #0a3a7e !important;
+}
+
+.btn{
+    padding: 0.6rem;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    background-image: linear-gradient(to right, #0a3a7e ,#3b6992, #4788b9);
+
+}
+
+/* handshake */
+.img-1{
+    background: linear-gradient(140deg, var(--primary), var(--secondary), var(--secondary)), url("./images/dosti.jpg") no-repeat center center / cover;
+    height: 60vh;
+    opacity: 0.8;
+
+}
+.hand-client{
+        margin-top: 6rem;
+}
+.digit{
+    display: block;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: left;
+    z-index: 5;
+}
+.india{
+    display: block;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: -4rem;
+    text-align: left;
+    z-index: 5;
+}
+
+/* clients */
+
+
+.img-2{
+    width: 10rem;
+    height: 5rem;
+    margin: 0 -1rem;
+}
+
+/* technical- 1 */
+.gray{
+    background:#ececec;
+}
+.card{
+    border: none !important;
+    margin: 2rem;
+}
+
+.tech-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+
+.btn-2{
+    color: rgb(38, 231, 31);
+    padding: 0.7rem;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: .5rem;
+}
+.tech-p-item{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-gray{
+     background:rgb(236, 236, 236);
+}
+/* image sec */
+
+.tec-h{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+.card-contain{
+    margin-right: 0.8rem;
+}
+.card-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -2.5rem;
+    margin-top: 2rem;
+}
+.img-3{
+    height: 29vh;
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.image-hero{
+    background: linear-gradient(360deg, var(--tersary), var(--primary)), url("./images/Quality.jpg")  no-repeat center center;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.social-icon{
+    padding-right: 2rem;
+    color: #4400ff;
+}
+.footer-links{
+    font-family: 'Teko', sans-serif;
+    color: #4400ff;
+}
+.link{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5rem;
+}
+.contact-heading{
+    font-family: 'Teko', sans-serif;
+    margin-left: -1.5rem;
+    color: #4400ff;
+}
+
+.icon{
+    color: #4400ff;
+    padding: 15px;
+    margin-left: -2.5rem;
+}
+.lead{
+    font-size: 14px;
+    margin-top: -2.2rem;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+} 
+ul li {
+    list-style: none;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+} 
+
+@media (max-width: 576px) {
+    .industry{
+        display: none;
+    }
+    .c-company{
+        display: none;
+    }
+    .list-item-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-c{
+        margin: 0 0 0 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly; 
+    }
+    .navbar-toggler{
+        margin-left: -3rem;
+    }
+    .btn{
+        margin-right: -3rem;
+    }
+    .card-img{
+        margin-left: -1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-3{
+        width: 100%;
+        height: 100%;
+        margin-left: rem;
+    }
+    .quality{
+        font-size: 20px;
+    }
+ }
+ @media (min-width: 1200px){
+    .navbar-toggler{
+        margin-left: -2rem;
+    }
+    .btn{
+        margin-right: -3rem;
+    }
+    .industry{
+        display: none;
+    }
+    .c-company{
+        display: none;
+    }
+    .card-img{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 2rem; */
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 4rem; */
+    }
+    .img-3{
+        /* width: 100%;
+        height: 100%; */
+        margin-left: 0.2rem;
+    }
+
+ }
